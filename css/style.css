@@ -745,7 +745,7 @@ input::placeholder {
     fill: transparent;
 }
 
-.user_privacy:checked + .privacy_span {
+.user_privacy:checked + .privacy_label .privacy_span {
     background-color: var(--blue-color);
     border: none;
     fill: var(--icon-color);
