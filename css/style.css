@@ -775,6 +775,7 @@ input::placeholder {
     content: "✔";
     font-size: 12px;
     line-height: 1;
+    fill: var(--icon-color);
     color: #fff;
 }
 
@@ -784,7 +785,7 @@ input::placeholder {
 
 .modal_form_btn{
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
