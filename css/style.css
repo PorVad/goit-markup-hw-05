@@ -771,11 +771,10 @@ input::placeholder {
     border: none;
 }
 
-.user_privacy:checked + .privacy_label .privacy_span::before {
-    content: "✔";
+.user_privacy:checked + .privacy_label .privacy_span:checked {
     font-size: 12px;
     line-height: 1;
-    fill: var(--icon-color);
+    fill: var(--icon-white-color);
     color: #fff;
 }
 
