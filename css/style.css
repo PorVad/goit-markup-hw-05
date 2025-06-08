@@ -769,9 +769,10 @@ input::placeholder {
 .user_privacy:checked + .privacy_label .privacy_span{
     background-color: var(--blue-color);
     border: none;
+    fill: var(--icon-white-color);
 }
 
-.user_privacy:checked + .privacy_label .privacy_span:checked {
+.user_privacy:checked + .privacy_label .privacy_span:checked{
     font-size: 12px;
     line-height: 1;
     fill: var(--icon-white-color);
